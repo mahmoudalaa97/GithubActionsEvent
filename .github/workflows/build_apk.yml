@@ -18,7 +18,6 @@ jobs:
         with:
           flutter-version: "3.0.0"
           channel: "stable"
-      - run: cd Flutter/hello
       - run: flutter --version
       - run: flutter clean
       - run: flutter pub get
